@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+
+<taglib>
+	<tlib-version>0.1</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>LiferayObjectsTaglib</short-name>
+	<uri>http://www.netpage-germany.de/JSP/LiferayObjects</uri>
+
+	<!-- 
+	For import in JSP use:
+	
+	<%@ taglib uri="http://www.netpage-germany.de/JSP/LiferayObjects" prefix="objects"%> 
+	
+	For import in web.xml use:
+	
+	<jsp-config>
+		...
+		<taglib>
+			<taglib-uri>http://www.netpage-germany.de/JSP/LiferayObjects</taglib-uri>
+			<taglib-location>/WEB-INF/tld/liferay-objects.tld</taglib-location>
+		</taglib>
+		...
+	</jsp-config>
+	-->
+
+	<tag>
+		<name>loadObjects</name>
+		<tag-class>de.netpagegermany.liferay.objectstaglib.LoadObjectsTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+
+</taglib>
